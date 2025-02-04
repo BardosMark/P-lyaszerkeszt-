@@ -1,1 +1,27 @@
-
+  <!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stlye.css">
+    <title>Pályaszerkesztő</title>
+   
+     
+    
+  </head>
+  <body>
+    <h1>Pályaszerkesztő</h1>
+    <label for="size">Pályaméret:</label>
+    <select id="size">
+      <option value="5">5x5</option>
+      <option value="10">10x10</option>
+      <option value="15">15x15</option>
+      <option value="20">20x20</option>
+    </select>
+    <button onclick="generateGrid()">Rács létrehozása</button>
+    <button onclick="randomizeGrid()">Véletlenszerű generálás</button>
+    <button onclick="saveGrid()">Mentés</button>
+    <div class="grid-container"><div id="grid"></div></div>
+    <script src="program.js"></script>
+  </body>
+</html>
