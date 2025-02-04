@@ -1,1 +1,26 @@
-
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  .grid-container {
+    display: inline-block;
+    position: relative;
+    margin-top: 20px;
+  }
+  .grid {
+    display: grid;
+    border: 2px solid black;
+  }
+  .cell {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid gray;
+  }
+  .filled {
+    background-color: black;
+  }
+  .numbers {
+    font-weight: bold;
+  }
